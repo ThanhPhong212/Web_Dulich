@@ -1,0 +1,85 @@
+.section_about {
+    width           : 100%;
+    background-color: rgb(0, 29, 87);
+
+    .about_content {
+        cursor         : pointer;
+        color          : white;
+        font-size      : 15px;
+        font-weight    : 500;
+        text-transform : uppercase;
+        padding        : 0 50px;
+        width          : 100%;
+        display        : flex;
+        justify-content: space-between;
+        gap            : 10px;
+
+        .item {
+            font-weight  : 600;
+            margin-right : 10px;
+            text-align   : center;
+            margin-bottom: 5px;
+            font-size    : 18px;
+
+        }
+
+        .time {
+            width       : 25%;
+            border-right: 1px solid white;
+
+            p {
+                font-size     : 14px;
+                padding-top   : 5px;
+                padding-left  : 10px;
+                text-transform: none;
+            }
+        }
+
+        .tour {
+            border-right: 1px solid white;
+            width       : 25%;
+
+            p {
+                font-size     : 14px;
+                padding-top   : 5px;
+                padding-left  : 10px;
+                text-transform: none;
+            }
+        }
+
+        .dichvu {
+            border-right: 1px solid white;
+            width       : 25%;
+
+            p {
+                font-size     : 14px;
+                padding-top   : 5px;
+                padding-left  : 10px;
+                text-transform: none;
+            }
+        }
+
+        .hotro {
+            border-right: 1px solid white;
+            width       : 25%;
+
+            p {
+                font-size     : 14px;
+                padding-top   : 5px;
+                padding-left  : 10px;
+                text-transform: none;
+            }
+        }
+
+        .gt {
+            width: 25%;
+
+            p {
+                font-size     : 14px;
+                padding-top   : 5px;
+                text-transform: none;
+                padding-left  : 10px;
+            }
+        }
+    }
+}
